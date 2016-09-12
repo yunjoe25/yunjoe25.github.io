@@ -10,3 +10,12 @@ h1{
 	font-weight: 300;
     	color: #333;
 }
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+/*.centered {*/
+/*    text-align: center;*/
+/*}*/
