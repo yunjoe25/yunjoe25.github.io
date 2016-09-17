@@ -13,7 +13,7 @@ div.container {
     left, right: 5%
     white-space:nowrap;
 }
-#image {
+div.image {
     position: relative;
     display: inline-block;
     width:250px;
