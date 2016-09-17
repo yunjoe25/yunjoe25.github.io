@@ -10,7 +10,7 @@ div.container {
     background-color: black;
     position: relative;
     overflow: hidden;
-    left, right: 5%;
+    left:5%; right: 5%;
 }
 #image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9,#image10 {
     position: relative;
