@@ -1,0 +1,39 @@
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color:red;
+}
+div.container {
+    position: relative;
+    margin: 0px 80px 0 80px;
+    padding: 0% 3% 3% 5%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    left, right: 5%
+    white-space:nowrap;
+}
+#image {
+    position: relative;
+    display: inline-block;
+    width:250px;
+    height:250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a.birthdaybutton{
+    font-family: 'Baloo', cursive;
+    font-weight: 300;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin-left:45%;
+    position: relative;
+}
+a.birthdaybutton:hover , a.birthdaybutton:active{
+     background-color: red;
+}

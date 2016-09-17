@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(../images/background/bg_img.jpg);
+	background-size: auto;
+   	font-family: 'EB Garamond', serif;
+	font-weight: 300;
+    position: relative;
+}
+h1{
+    font-family: 'Baloo', cursive;
+    font-size: 43px;
+    text-shadow: 4px 4px 4px #aaa;
+	font-weight: 300;
+    color: #000;
+    text-align: relative;
+    margin-left: 80px;
+}
+p {
+    -webkit-background-clip: border;
+    font-family: 'Baloo', cursive;
+    position: relative;
+    text-shadow: -1px 0 #d9d9d9, 0 1px #d9d9d9, 1px 0 #d9d9d9, 0 -1px #d9d9d9;
+    color: black;
+    padding: 8px;
+    height: 550px;
+    width: 550px;
+    font-size: 15px;
+    margin-left:80px;
+    margin-right:50px;
+    line-height: 25px;
+
+} 
+a.birthdaybutton, a.duckbutton{
+    font-family: 'Baloo', cursive;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin-left:80px;
+    margin-right:50px;
+}
+a.birthdaybutton:hover ,a.duckbutton:hover, a.birthdaybutton:active, a.duckbutton:active{
+     background-color: red;
+}
+
