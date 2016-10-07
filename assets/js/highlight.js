@@ -1,15 +1,11 @@
 
 function highlight(){
 
-	var player1_piece = 12;
-	var player2_piece = 12;
-	var selected = false;
-	var potential_left = false;
-	var potential_right = false;
+	var player1_piece = 12, player2_piece = 12;
+	var selected = false, potential_left = false, potential_right = false;
 	var previous_id_1;
 	var previous_id_2;
-	// var previous_id_1_point;
-	// var previous_id_2
+
 	var playerturn = 1; // 1 = player 1's turn, 2 = plater 2's turn. Player 1 goes first
 	var checkboard = [	-1,-1,-1,-1,-1,-1,-1,-1,-1,-1 ,
 					  	-1, 1, 0, 1, 0, 1, 0, 1, 0,-1 ,
@@ -72,7 +68,7 @@ function highlight(){
 				// //trying to fix mousebug
 				// var esc = $.Event("keydown", { keyCode: 27 });
 				// $("div.board").trigger(esc);
-			} if((checkboard[current_id + 18] == 0)){
+			}if((checkboard[current_id + 18] == 0)){
 				$(this).css("background-color","yellow");
 				//display id and player turn
 				$("#bid").html("Current id: " + current_id );
@@ -84,7 +80,7 @@ function highlight(){
 				potential_left = true;
 			
 			//right position 
-			} if((checkboard[current_id + 22] == 0)){
+			}else if((checkboard[current_id + 22] == 0)){
 				$(this).css("background-color","yellow");
 				//display id and player turn
 				$("#bid").html("Current id: " + current_id );
@@ -125,7 +121,7 @@ function highlight(){
 				potential_right = true;
 			
 			//right position 
-			}if((checkboard[current_id - 22] == 0)){
+			}else if((checkboard[current_id - 22] == 0)){
 				$(this).css("background-color","yellow");
 				//display id and player turn
 				$("#bid").html("Current id: " + current_id );
