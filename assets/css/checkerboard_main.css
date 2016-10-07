@@ -1,0 +1,40 @@
+#button_hide, #button_show, #button_reset {
+	display: block;	
+	margin: 5px;
+	padding: 3px;
+
+}
+
+#piece_coord{
+	margin: 5px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+#pturn{
+	font-weight: bold;
+	background-color: #000099;
+	color: white;
+	/*margin:auto;*/
+	padding: 4px;
+	border-left: 4px;	
+}
