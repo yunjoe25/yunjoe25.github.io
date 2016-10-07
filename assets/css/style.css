@@ -29,7 +29,7 @@ p {
     line-height: 25px;
 
 } 
-a.birthdaybutton, a.duckbutton{
+a.birthdaybutton, a.duckbutton, a.checkbutton{
     font-family: 'Baloo', cursive;
     background-color: #f44336;
     color: white;
@@ -40,7 +40,7 @@ a.birthdaybutton, a.duckbutton{
     margin-left:80px;
     margin-right:50px;
 }
-a.birthdaybutton:hover ,a.duckbutton:hover, a.birthdaybutton:active, a.duckbutton:active{
+a.birthdaybutton:hover ,a.duckbutton:hover,a.checkbutton:hover, a.birthdaybutton:active, a.duckbutton:active, a.checkbutton:active {
      background-color: red;
 }
 
