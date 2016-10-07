@@ -226,8 +226,6 @@ function highlight(){
 
 		}
 		selected = false;
-		potential_left = false;
-		potential_right = false;
 		// move0 = move1 = move2= move3 = false;
 		$("#presscheck").html("Pressed: false-released not valid position");
 	});
