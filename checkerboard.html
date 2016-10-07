@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Checkerboard</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/create.js"></script>
+	<script type="text/javascript" src="assets/js/highlight.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/checkerboard_main.css">
+
+<body>
+	<div class="alert">
+	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+	  <strong>Tips!</strong> If the piece aren't working properly, please try <strong>double-clicking</strong> the piece.
+	</div>
+	<!-- div board; setting display to none -->
+	<div id="board" style="display:none;"></div>
+
+	<!-- div button(create/hide/reset) -->
+	<div class="button" style="margin:auto;">
+		<!-- button for show -->
+		<button id="button_show" onclick="document.getElementById('board').style.display='block';">Show checkerboard</button>
+		<!-- button for hide -->
+		<button id="button_hide" onclick="document.getElementById('board').style.display='none';">Hide checkerboard</button>
+		
+		<!-- <p id="player_turn"></p> -->
+
+		<form class="reset">
+			<!-- button for reset -->
+			<input id="button_reset" TYPE="button" onClick="history.go(0)" VALUE="Reset"> 
+		</form>
+	</div>
+
+	<div class="info">
+		<p id="pturn"></p>
+		<p id="p1piece"></p>
+		<p id="p2piece"></p>
+		<p id="piece_coord"></p>
+		<p id="bid"></p>
+		<p id="checkerboard"></p>
+		<p id="presscheck"></p>
+	</div>
+
+	<!-- creating checkerboard -->
+	<script>create();</script>
+	<!-- game functions -->
+	<script>highlight();</script>
+	
+</body>
+
+</html>
